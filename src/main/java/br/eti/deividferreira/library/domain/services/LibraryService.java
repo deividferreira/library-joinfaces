@@ -6,7 +6,7 @@ package br.eti.deividferreira.library.domain.services;
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
 
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import br.eti.deividferreira.library.domain.entity.Autor;
@@ -16,7 +16,7 @@ import br.eti.deividferreira.library.domain.repositories.AutorRepository;
  * @author Deivid Ferreira
  *
  */
-@Component
+@Service
 @ApplicationScoped
 public class LibraryService {
 
